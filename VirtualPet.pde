@@ -1,9 +1,13 @@
-//shark
-void setup(){
-  size(575,575);
+//Shark
+
+int x = 20;
+
+void setup() {
+size(575,575);
 }
+
 void draw(){
-   background(131, 222, 241);
+  background(131, 222, 241);
  noStroke();
  fill(0,0,0);
  text (mouseX,45,100);
@@ -33,6 +37,8 @@ void draw(){
  ellipse(110,362,30,30);
  noFill();
  arc(171,355, 30,30, (4/3)*PI, 2*PI);
+
+
 
 }
 
